@@ -1,0 +1,18 @@
+{
+  "name": "vue-ajax-forms",
+  "version": "1.0.0",
+  "description": "A series of mixins that make easier to validate, send and give feedback about forms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "forms",
+    "vue",
+    "ajax",
+    "axios",
+    "mixins"
+  ],
+  "author": "Omar España",
+  "license": "MIT"
+}
