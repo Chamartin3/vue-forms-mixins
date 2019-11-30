@@ -1,5 +1,5 @@
 {
-  "name": "vue-ajax-forms",
+  "name": "vue-forms",
   "version": "1.0.0",
   "description": "A series of mixins that make easier to validate, send and give feedback about forms.",
   "main": "index.js",

@@ -1,12 +1,12 @@
 
-import errorsMixin from './formErrors'
-import fileForm from './fileformMixin'
+import errorsMixin from './mixins/formErrors'
+import fileForm from './mixins/fileformMixin'
 import {
     baseFormMixin,
     mainFormMixin,
     subFormMixin,
     formResponses,
-    viewModeMixin } from './formMixin'
+    viewModeMixin } from './mixins/formMixin'
 
 export {
   baseFormMixin,
