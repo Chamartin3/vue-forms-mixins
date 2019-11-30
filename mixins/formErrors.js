@@ -1,12 +1,9 @@
 try {
   const _ = require('lodash');
 }
-
 catch(error){
-
-  console.log('There is an error importing lodash please enssure that you have that depdendencý')
+  console.log('You need lodash to run the errors')
   console.log(error)
-
 }
 const errorsMixin = {
   data () {

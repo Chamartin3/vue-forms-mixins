@@ -1,6 +1,15 @@
-import createCurrencyFormat from 'vue-currency-input/src/utils/createCurrencyFormat'
-import { parse } from 'vue-currency-input/src/utils/formatHelper'
-import defaultOptions from 'vue-currency-input/src/defaultOptions'
+try {
+  const createCurrencyFormat = require('vue-currency-input/src/utils/createCurrencyFormat')
+  const defaultOptions = require('vue-currency-input/src/defaultOptions')
+}
+catch(error){
+  console.log('You need vue-currency-input to run the errors')
+  console.log(error)
+  throw error
+}
+
+import parse from 'vue-currency-input/src/utils/formatHelper')
+
 // try {
 //   const createCurrencyFormat = require('vue-currency-input/src/util/createCurrencyFormat')
 //   const { parse }  = require('vue-currency-input/src/utils/formatHelper')

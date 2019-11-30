@@ -14,5 +14,12 @@
     "mixins"
   ],
   "author": "Omar España",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+  },
+  "optionalDependencies": {
+    "lodash": "^4.17.15",
+    "vue-currency-input": "^1.13.0"
+  },
 }
